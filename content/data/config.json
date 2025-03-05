@@ -1,17 +1,19 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
+    "favicon": "/images/JonColon Logo.png",
     "header": {
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Jonathen Colon Portfolio",
+        "title": "Jon Colon",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
                 "label": "Info",
-                "url": "/info"
+                "url": "/info",
+                "icon": "",
+                "showIcon": false
             },
             {
                 "type": "Link",
@@ -29,14 +31,14 @@
                 "type": "Social",
                 "altText": "Twitter",
                 "label": "Twitter",
-                "url": "https://twitter.com/netlify",
+                "url": "https://x.com/JonathenColon",
                 "icon": "twitter"
             },
             {
                 "type": "Social",
                 "altText": "GitHub",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/Jonathen-Colon",
                 "icon": "github"
             }
         ],
@@ -70,21 +72,21 @@
             {
                 "type": "Link",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
+                "url": "https://github.com/Jonathen-Colon",
+                "altText": "Jon Colon Github"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
+            "phoneNumber": "508-818-1727",
             "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
+            "email": "jonathen@joncolon.dev",
             "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
+            "address": "Southern Mass",
             "addressAltText": "My address"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "Powered by JonColon\n",
         "styles": {
             "self": {
                 "width": "narrow",
