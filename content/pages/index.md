@@ -47,7 +47,7 @@ sections:
       - type: Button
         label: Learn more
         altText: ''
-        url: /#contact
+        url: '#contact'
         showIcon: false
         icon: arrowRight
         iconPosition: right
