@@ -45,7 +45,7 @@ sections:
     type: HeroSection
     actions:
       - type: Button
-        label: Learn more
+        label: Contact Me
         altText: Email Me
         url: 'mailto:jonathen@joncolon.dev'
         showIcon: false
