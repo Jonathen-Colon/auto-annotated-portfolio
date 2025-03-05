@@ -86,7 +86,7 @@
             "address": "Southern Mass",
             "addressAltText": "My address"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "Powered by JonColon\n",
         "styles": {
             "self": {
                 "width": "narrow",
