@@ -46,7 +46,7 @@ sections:
     actions:
       - type: Button
         label: Learn more
-        altText: ''
+        altText: Email Me
         url: 'mailto:jonathen@joncolon.dev'
         showIcon: false
         icon: arrowRight
