@@ -16,10 +16,7 @@ sections:
     title: >-
       I’m a developer, digital artist, consultant and a bunch of other
       impressive titles and buzz words.
-    subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+    subtitle: Ready to Elevate Your Project? Let's Talk.
     styles:
       self:
         height: auto
@@ -46,7 +43,17 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-    actions: []
+    actions:
+      - type: Button
+        label: Contact me
+        altText: Email Me
+        url: 'mailto:jonathen@joncolon.dev'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    text: ''
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -59,10 +66,7 @@ sections:
     showFeaturedImage: true
     showReadMoreLink: true
     variant: variant-b
-    projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+    projects: []
     styles:
       self:
         height: auto
@@ -84,7 +88,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: 'Projects'
+    subtitle: Projects
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
@@ -95,10 +99,7 @@ sections:
       - type: Link
         label: See all posts
         url: /blog
-    posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
+    posts: []
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
@@ -156,13 +157,6 @@ sections:
           isRequired: true
           width: 1/2
           type: EmailFormControl
-        - name: address
-          label: Address
-          hideLabel: true
-          placeholder: Address
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
         - name: updatesConsent
           label: Sign me up to recieve updates
           isRequired: false
